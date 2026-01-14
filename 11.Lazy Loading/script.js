@@ -19,7 +19,7 @@ const observer = new IntersectionObserver(
   {
     root: null,           // viewport
     rootMargin: '200px',  // preload before visible
-    threshold: 0
+    threshold: 0.5
   }
 );
 
